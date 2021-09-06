@@ -68,6 +68,10 @@ async def sugarbrownsugarpearl(ctx, arg2):
 @client.command()
 async def motivation(ctx):
   await ctx.send(random.choice(quotes))
+  
+@client.command()
+async def scouts(ctx):
+  await ctx.send(f"There are currently {ctx.guild.member_count} scouts!")
 
 
 #to run the bot
