@@ -76,5 +76,4 @@ async def scouts(ctx):
 
 #to run the bot
 
-client.run(os.environ['Token'])
 
